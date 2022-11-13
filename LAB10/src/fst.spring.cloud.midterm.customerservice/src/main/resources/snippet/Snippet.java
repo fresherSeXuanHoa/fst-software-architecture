@@ -1,0 +1,18 @@
+package snippet;
+
+public class Snippet {
+	spring:
+	  application:
+	    name: account-service
+	    
+	server:
+	  port: 0
+	  
+	eureka:
+	  client:
+	    serviceUrl:
+	      defaultZone: http://localhost:8999/eureka
+	  instance:
+	    preferIpAddress: true
+}
+
